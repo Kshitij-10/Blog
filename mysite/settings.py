@@ -100,7 +100,12 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
-
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+EMAIL_HOST='smtp.gmail.com'
+EMAIL_HOST_USER='singh.kshitij1010@gmail.com'
+EMAIL_HOST_PASSWORD='ShelbyGT500'
+EMAIL_PORT='587'
+EMAIL_USE_TLS=True
 # Internationalization
 # https://docs.djangoproject.com/en/3.0/topics/i18n/
 

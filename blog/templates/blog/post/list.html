@@ -13,5 +13,8 @@
  </p>
  {{ post.body|truncatewords:60|linebreaks }}
  {% endfor %}
- {% include "pagination.html" with page=page_obj %}
+ {% include "pagination.html" with page=posts %}
 {% endblock %}
+
+
+<!-- page_obj -->
