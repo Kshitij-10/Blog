@@ -11,6 +11,3 @@ urlpatterns = [
         name='post_detail'),
     path('<int:post_id>/share/',views.post_share,name='post_share'),
 ]
-
-
-# views.PostListView.as_view()
